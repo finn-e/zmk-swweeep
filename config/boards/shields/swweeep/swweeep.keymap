@@ -133,7 +133,7 @@
             label = "Win Navigation";
 
             bindings = <
-    &trans       &kp LG(LC(LEFT) &kp LG(UP)   &kp LG(LC(RIGHT) &trans                                      &trans      &trans      &trans      &trans      &trans
+    &trans       &kp LG(LC(LEFT)) &kp LG(UP)   &kp LG(LC(RIGHT)) &trans                                      &trans      &trans      &trans      &trans      &trans
     &trans       &kp LG(LEFT)    &kp LG(DOWN) &kp LG(RIGHT)    &trans                                      &trans      &trans      &trans      &trans      &trans
     &trans       &trans          &trans       &trans           &trans                                      &trans      &trans      &trans      &trans      &trans
                                                   &trans        &trans        &trans         &trans         &trans      &trans
