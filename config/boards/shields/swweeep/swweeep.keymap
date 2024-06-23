@@ -67,7 +67,7 @@
             label = "Default";
 
             bindings = <
-    &kp COMMA    &kp Q        &kp U       &kp DOT       &kp SQT                                     &kp K         &kp G        &lt H   &kp C       &kp W
+    &kp COMMA    &kp Q        &kp U       &kp DOT       &kp SQT                                     &kp K         &kp G        &kp H          &kp C       &kp W
     &hs LGUI A   &hm LALT O   &hm LCTRL E &hm LSHIFT I  &lt MOUSE P                                 &lt MOUSE M   &hm RSHIFT T &hm RCTRL N    &hm LALT S  &hm RGUI R
     &kp SLASH    &hm RALT X   &kp Z       &kp Y         &kp J                                       &kp B         &kp D        &kp L          &hm RALT F  &kp V
                                           &lt WINNAV ESC &lt NAV SPACE  &lt FUNC TAB  &lt MEDIA RETURN   &lt SYM BKSP &kp WINNAV DEL
