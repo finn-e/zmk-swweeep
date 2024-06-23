@@ -122,7 +122,7 @@
             label = "Mouse";
 
             bindings = <
-    &bootloader &reset      &trans      &trans      &trans                                           &trans      &trans      &trans      &reset      &bootloader
+    &bootloader &sys_reset  &trans      &trans      &trans                                           &trans      &trans      &trans      &sys_reset      &bootloader
     &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
     &trans      &trans      &trans      &trans      &trans                                           &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans          &trans           &trans          &trans      &trans
@@ -134,9 +134,9 @@
 
             bindings = <
     &trans       &kp LG(LC(LEFT)) &kp LG(UP)   &kp LG(LC(RIGHT)) &trans                                      &trans      &trans      &trans      &trans      &trans
-    &trans       &kp LG(LEFT)    &kp LG(DOWN) &kp LG(RIGHT)    &trans                                      &trans      &trans      &trans      &trans      &trans
-    &trans       &trans          &trans       &trans           &trans                                      &trans      &trans      &trans      &trans      &trans
-                                                  &trans        &trans        &trans         &trans         &trans      &trans
+    &trans       &kp LG(LEFT)     &kp LG(DOWN) &kp LG(RIGHT)     &trans                                      &trans      &trans      &trans      &trans      &trans
+    &trans       &trans           &trans       &trans            &trans                                      &trans      &trans      &trans      &trans      &trans
+                                                  &trans         &trans        &trans         &trans         &trans      &trans
             >;
         };
     };
