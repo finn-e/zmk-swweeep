@@ -249,7 +249,7 @@
             key-positions = <10 13>;
             bindings = <&kp PIPE>;
         };
-        combo_semicolon {
+        combo_backslash {
             timeout-ms = <50>;
             key-positions = <11 13>;
             bindings = <&kp BSLH>;
