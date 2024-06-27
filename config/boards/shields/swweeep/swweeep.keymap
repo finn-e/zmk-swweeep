@@ -254,6 +254,11 @@
             key-positions = <11 13>;
             bindings = <&kp BSLH>;
         };
+        combo_question {
+            timeout-ms = <50>;
+            key-positions = <6 8>;
+            bindings = <&kp QMARK>;
+        };
         combo_semicolon {
             timeout-ms = <50>;
             key-positions = <6 9>;
