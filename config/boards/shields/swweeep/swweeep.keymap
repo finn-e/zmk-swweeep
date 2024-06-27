@@ -69,7 +69,7 @@
     &kp COMMA    &kp Q        &kp U       &kp DOT        &kp SQT                                           &kp K         &kp G        &kp H          &kp C       &kp W
     &hs LGUI A   &hm LALT O   &hm LCTRL E &hm LSHIFT I   &lt MEDIA P                                       &lt WINNAV M  &hm RSHIFT T &hm RCTRL N    &hm LALT S  &hm RGUI R
     &kp SLASH    &hm RALT X   &kp Z       &kp Y          &kp J                                             &kp B         &kp D        &kp L          &hm RALT F  &kp V
-                                          &lt WINNAV ESC &lt NUMB SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
+                                          &lt WINNAV ESC &lt 1 SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
             >;
         };
 
