@@ -185,7 +185,7 @@
         combo_rpar {
             timeout-ms = <50>;
             key-positions = <15 16>;
-            bindings = <&kp LPAR>;
+            bindings = <&kp RPAR>;
         };
         combo_colon {
             timeout-ms = <50>;
