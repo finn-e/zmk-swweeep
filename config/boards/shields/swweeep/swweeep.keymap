@@ -79,7 +79,7 @@
 
             bindings = <
     &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
-    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp PG_UP                                     &kp FLSH  &kp N4    &kp N5    &kp N6    &kp PLUS
+    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp PG_UP                                     &kp FSLH  &kp N4    &kp N5    &kp N6    &kp PLUS
     &kp HOME  &kp UNDER &kp MINUS &kp END   &kp PG_DN                                     &kp ASTRK &kp N1    &kp N2    &kp N3    &kp EQUAL
                                   &kp ESC   &trans    &kp TAB                  &kp RET    &kp N0    &kp DOT
             >;
