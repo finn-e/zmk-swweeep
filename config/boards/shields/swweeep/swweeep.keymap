@@ -177,7 +177,7 @@
         combo_lcontrol {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp LCONTROL>;
+            bindings = <&kp LCTRL>;
         };
         combo_lshift {
             timeout-ms = <50>;
@@ -192,7 +192,7 @@
         combo_rcontrol {
             timeout-ms = <50>;
             key-positions = <16 17>;
-            bindings = <&kp RCONTROL>;
+            bindings = <&kp RCTRL>;
         };
         combo_ralt {
             timeout-ms = <50>;
