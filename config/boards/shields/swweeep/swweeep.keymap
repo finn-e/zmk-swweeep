@@ -228,7 +228,7 @@
         combo_rbraket {
             timeout-ms = <50>;
             key-positions = <25 26>;
-            bindings = <#define AS(keycode) &as LS(keycode) keycode&kp RBKT>;
+            bindings = <&kp RBKT>;
         };
         combo_equal {
             timeout-ms = <50>;
