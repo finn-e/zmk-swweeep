@@ -170,7 +170,7 @@
             bindings = <&kp UNDER>;
         };
         combo_comma {
-            timeout-ms = <50>;global-quick-tap-ms 
+            timeout-ms = <50>;
             key-positions = <11 12>;
             bindings = <&kp COMMA>;
         };
