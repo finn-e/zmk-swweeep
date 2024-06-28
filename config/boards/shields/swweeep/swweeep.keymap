@@ -164,45 +164,45 @@
             bindings = <&kp GT>;
         };
 
-        combo_under {
+        combo_lgui {
             timeout-ms = <50>;
             key-positions = <10 11>;
-            bindings = <&kp UNDER>;
+            bindings = <&kp LGUI>;
         };
-        combo_comma {
+        combo_lalt {
             timeout-ms = <50>;
             key-positions = <11 12>;
-            bindings = <&kp COMMA>;
+            bindings = <&kp LALT>;
         };
-        combo_period {
+        combo_lcontrol {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp DOT>;
+            bindings = <&kp LCONTROL>;
         };
-        combo_lpar {
+        combo_lshift {
             timeout-ms = <50>;
             key-positions = <13 14>;
-            bindings = <&kp LPAR>;
+            bindings = <&kp LSHIFT>;
         };
-        combo_rpar {
+        combo_rshift {
             timeout-ms = <50>;
             key-positions = <15 16>;
-            bindings = <&kp RPAR>;
+            bindings = <&kp RSHIFT>;
         };
-        combo_colon {
+        combo_rcontrol {
             timeout-ms = <50>;
             key-positions = <16 17>;
-            bindings = <&kp COLON>;
+            bindings = <&kp RCONTROL>;
         };
-        combo_apostrophe {
+        combo_ralt {
             timeout-ms = <50>;
             key-positions = <17 18>;
-            bindings = <&kp APOS>;
+            bindings = <&kp LALT>;
         };
-        combo_doublequote {
+        combo_rgui{
             timeout-ms = <50>;
             key-positions = <18 19>;
-            bindings = <&kp DQT>;
+            bindings = <&kp RGUI>;
         };
 
         combo_cut {
@@ -231,7 +231,7 @@
             bindings = <&kp RBKT>;
         };
         combo_equal {
-            timeout-ms = <50>;
+            timeouglobal-quick-tap-ms t-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp EQUAL>;
         };
@@ -261,10 +261,10 @@
             key-positions = <11 13>;
             bindings = <&kp BSLH>;
         };
-        combo_question {
+        combo_colon {
             timeout-ms = <50>;
             key-positions = <16 18>;
-            bindings = <&kp QMARK>;
+            bindings = <&kp COLON>;
         };
         combo_semicolon {
             timeout-ms = <50>;
@@ -292,24 +292,6 @@
             flavor = "tap-preferred";
             bindings = <&mt LSHIFT LS(&kp)>, <&kp>;
         };
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-        hs: homerow_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_SHIFT";
-            #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            quick_tap_ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
     };
 
     keymap {
@@ -320,10 +302,10 @@
 
             bindings = <
     
-    A(Q)               AS(U)           AS(DOT)            AS(SQT)                                               AS(K)             AS(G)            AS(H)              AS(C)           AS(W)
-    AS(A)  AS(O)     AS(E) AS(I)  AS(P)                                      AS(M)  AS(T) AS(N)    AS(S)  AS(R)
-    AS(SLASH)       AS(X)      AS(Z)           AS(Y)              AS(J)                                                 AS(B)             AS(D)            AS(L)         AS(F)  AS(V)
-                                          &lt WINNAV ESC &lt NUM SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
+    AS(COMMA)  AS(Q)     AS(U)       AS(DOT)        AS(SQT)                                          AS(K)         AS(G)            AS(H)         AS(C)     AS(W)
+    AS(A)      AS(O)     AS(E)       AS(I)          AS(P)                                            AS(M)         AS(T)            AS(N)         AS(S)     AS(R)
+    AS(SLASH)  AS(X)     AS(Z)       AS(Y)          AS(J)                                            AS(B)         AS(D)            AS(L)         AS(F)     AS(V)
+                                     &lt WINNAV ESC &lt NUM SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
             >;
         };
 
