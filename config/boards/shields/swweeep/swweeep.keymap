@@ -288,9 +288,9 @@
             label = "AUTO_SHIFT";
             #binding-cells = <2>;
             tapping_term_ms = <135>;
-            quick_tap_ms = <0>;
+            quick_tap_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&mt LSHIFT LS(&kp)>, <&kp>;
+            bindings = <&kp>, <&kp>;
         };
     };
 
