@@ -320,8 +320,8 @@
 
             bindings = <
     AS(COMMA)      AS(Q)               AS(U)           AS(DOT)            AS(SQT)                                               AS(K)             AS(G)            AS(H)              AS(C)           AS(W)
-    &hs LGUI AS(A) &hm LALT AS(O)      &hm LCTRL AS(E) &hm LSHIFT AS(I)   &lt MEDIA AS(P)                                       &lt WINNAV AS(M)  &hm RSHIFT AS(T) &hm RCTRL AS(N)    &hm LALT AS(S)  &hm RGUI R
-    AS(SLASH)      &hm RALT AS(X)      AS(Z)           AS(Y)              AS(J)                                                 AS(B)             AS(D)            AS(L)              &hm RALT AS(F)  AS(V)
+    AS(A)  AS(O)     AS(E) AS(I)  AS(P)                                      AS(M)  AS(T) AS(N)    AS(S)  AS(R)
+    AS(SLASH)       AS(X)      AS(Z)           AS(Y)              AS(J)                                                 AS(B)             AS(D)            AS(L)         AS(F)  AS(V)
                                           &lt WINNAV ESC &lt NUM SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
             >;
         };
