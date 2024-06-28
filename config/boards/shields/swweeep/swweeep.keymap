@@ -290,7 +290,7 @@
             tapping_term_ms = <135>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            bindings = <&mt LSHIFT LS(&kp)>, <&kp>;
         };
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -320,7 +320,7 @@
 
             bindings = <
     
-&hm LSHIFT &as LS(Q) Q               AS(U)           AS(DOT)            AS(SQT)                                               AS(K)             AS(G)            AS(H)              AS(C)           AS(W)
+    A(Q)               AS(U)           AS(DOT)            AS(SQT)                                               AS(K)             AS(G)            AS(H)              AS(C)           AS(W)
     AS(A)  AS(O)     AS(E) AS(I)  AS(P)                                      AS(M)  AS(T) AS(N)    AS(S)  AS(R)
     AS(SLASH)       AS(X)      AS(Z)           AS(Y)              AS(J)                                                 AS(B)             AS(D)            AS(L)         AS(F)  AS(V)
                                           &lt WINNAV ESC &lt NUM SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
