@@ -128,7 +128,7 @@
             key-positions = <0 1>;
             bindings = <&kp LT>;
         };
-        combo_plus {
+        combo_plus {QMARK
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp PLUS>;
@@ -231,7 +231,7 @@
             bindings = <&kp RBKT>;
         };
         combo_equal {
-            timeouglobal-quick-tap-ms t-ms = <50>;
+            timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp EQUAL>;
         };
