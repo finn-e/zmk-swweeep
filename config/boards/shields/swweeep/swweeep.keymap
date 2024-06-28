@@ -231,7 +231,7 @@
         combo_equal {
             timeout-ms = <50>;
             key-positions = <26 27>;
-            bindings = <&kp LC(Z)>;
+            bindings = <&kp EQUAL>;
         };
         combo_undo {
             timeout-ms = <50>;
