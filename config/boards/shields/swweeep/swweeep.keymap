@@ -170,7 +170,7 @@
             bindings = <&kp UNDER>;
         };
         combo_comma {
-            timeout-ms = <50>;
+            timeout-ms = <50>;global-quick-tap-ms 
             key-positions = <11 12>;
             bindings = <&kp COMMA>;
         };
@@ -319,7 +319,8 @@
             label = "Default";
 
             bindings = <
-    AS(COMMA)      AS(Q)               AS(U)           AS(DOT)            AS(SQT)                                               AS(K)             AS(G)            AS(H)              AS(C)           AS(W)
+    
+&hm LSHIFT &as LS(Q) Q               AS(U)           AS(DOT)            AS(SQT)                                               AS(K)             AS(G)            AS(H)              AS(C)           AS(W)
     AS(A)  AS(O)     AS(E) AS(I)  AS(P)                                      AS(M)  AS(T) AS(N)    AS(S)  AS(R)
     AS(SLASH)       AS(X)      AS(Z)           AS(Y)              AS(J)                                                 AS(B)             AS(D)            AS(L)         AS(F)  AS(V)
                                           &lt WINNAV ESC &lt NUM SPACE  &lt FUNC TAB  &lt MOUSE RETURN    &lt SYM BKSP  &lt MEDIA DEL
