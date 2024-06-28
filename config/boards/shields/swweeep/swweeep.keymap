@@ -128,7 +128,7 @@
             key-positions = <0 1>;
             bindings = <&kp LT>;
         };
-        combo_plus {QMARK
+        combo_plus {
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp PLUS>;
