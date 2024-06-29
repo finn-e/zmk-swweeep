@@ -96,7 +96,7 @@
         combo_percent {
             timeout-ms = <50>;
             key-positions = <14 24>;
-            bindings = <&kp CARET>;
+            bindings = <&kp PERCENT>;
         };
         combo_caret {
             timeout-ms = <50>;
@@ -267,9 +267,9 @@
             key-positions = <16 18>;
             bindings = <&kp COLON>;
         };
-        combo_semicolon {
+        combo_semic {
             timeout-ms = <50>;
-            key-positions = <16 19>;
+            key-positions = <16 19>
             bindings = <&kp SEMI>;
         };
         combo_grave {
@@ -278,6 +278,21 @@
             bindings = <&kp GRAVE>;
         };
 
+        combo_dashspace{
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&kp MINUS>;
+        };
+        combo_underspace {
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+            bindings = <&kp GRAVE>;
+        };
+        combo_capsword {
+            timeout-ms = <50>;
+            key-positions = <33 34>;
+            bindings = <&caps_word>;
+        };
     };
 };
 
@@ -288,7 +303,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
             #binding-cells = <2>;
-            tapping_term_ms = <140>;
+            tapping_term_ms = <150>;
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -334,7 +349,7 @@
             label = "Symbols";
 
             bindings = <
-    &kp CAPS   &kp GRAVE   &kp GRAVE   &kp TILDE     &kp LT                                      &kp GT        &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR
+    &kp CAPS   &kp GRAVE   &kp UNDER   &kp TILDE     &kp LT                                      &kp GT        &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR
     &kp LALT   &kp LS(TAB) &kp UP      &kp TAB       &kp LBRC                                    &kp RBRC      &kp DLLR       &kp PRCNT     &kp CARET   &kp EQUAL
     &caps_word &kp LEFT    &kp DOWN    &kp RIGHT     &kp LBKT                                    &kp RBKT      &kp EXCL       &kp AT        &kp HASH    &tog SYM
                                        &kp ESC       &kp SPACE      &kp TAB        &kp RET       &trans        &kp DEL
