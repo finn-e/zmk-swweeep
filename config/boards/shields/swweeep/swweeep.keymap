@@ -294,7 +294,7 @@
         };
         lt: layer_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP";
+            label = "LAYER_TAP";35
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             quick_tap_ms = <200>;
@@ -333,7 +333,7 @@
             label = "Symbols";
 
             bindings = <
-    &kp CAPS   &kp GRAVE   &kp GRAVE   &kp TILDE     &kp LESS                                    &kp MORE      &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR
+    &kp CAPS   &kp GRAVE   &kp GRAVE   &kp TILDE     &kp LT                                      &kp GT        &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR
     &kp LALT   &kp LS(TAB) &kp UP      &kp TAB       &kp LBRC                                    &kp RBRC      &kp DLLR       &kp PRCNT     &kp CARET   &kp EQUAL
     &caps_word &kp LEFT    &kp DOWN    &kp RIGHT     &kp LBKT                                    &kp RBKT      &kp EXCL       &kp AT        &kp HASH    &tog SYM
                                        &kp ESC       &kp SPACE      &kp TAB        &kp RET       &trans        &kp DEL
