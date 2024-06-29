@@ -287,7 +287,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
             #binding-cells = <2>;
-            tapping_term_ms = <135>;
+            tapping_term_ms = <140>;
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -296,7 +296,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP";
             #binding-cells = <2>;
-            tapping_term_ms = <135>;
+            tapping_term_ms = <200>;
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
@@ -322,10 +322,10 @@
             label = "Numbers";
 
             bindings = <
-    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                                        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0
-    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp PG_UP                                     &kp FSLH  &kp N4    &kp N5    &kp N6    &kp PLUS
-    &kp HOME  &kp UNDER &kp MINUS &kp END   &kp PG_DN                                     &kp ASTRK &kp N1    &kp N2    &kp N3    &kp EQUAL
-                                  &kp ESC   &trans    &kp TAB                  &kp RET    &kp N0    &kp DOT
+    &kp HOME     &kp LC(END) &kp LC(HOME) &kp END       &kp LC(F)                                     &kp EQUAL &kp N7    &kp N8    &kp N9    &kp MINUS
+    &kp LEFT     &kp DOWN     &kp UP      &kp RIGHT     &kp LC(H)                                     &kp FSLH  &kp N4    &kp N5    &kp N6    &kp PLUS
+    &kp LC(LEFT) &kp PG_DN    &kp PG_UP   &kp LC(RIGHT) &kp LC(R)                                     &kp ASTRK &kp N1    &kp N2    &kp N3    &tog NUM
+                                          &kp ESC       &trans    &kp TAB                  &kp RET    &kp N0    &kp DOT
             >;
         };
 
@@ -333,10 +333,10 @@
             label = "Symbols";
 
             bindings = <
-    &kp EXCL     &kp AT       &kp HASH    &kp DLLR      &kp PRCNT                                   &kp CARET     &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR
-    &kp CAPS     &kp HOME     &kp UP      &kp END       &kp LBRC                                    &kp RBRC      &kp DLLR       &kp PRCNT     &kp CARET   &kp EQUAL
-    &caps_word   &kp LEFT     &kp DOWN    &kp RIGHT     &kp LBKT                                    &kp RBKT      &kp EXCL       &kp AT        &kp HASH    &tog SYM
-                                          &kp ESC       &kp SPACE      &kp TAB        &kp RET       &trans        &kp DEL
+    &kp CAPS   &kp GRAVE   &kp GRAVE   &kp TILDE     &kp LESS                                    &kp MORE      &kp AMPS       &kp ASTRK     &kp LPAR    &kp RPAR
+    &kp LALT   &kp LS(TAB) &kp UP      &kp TAB       &kp LBRC                                    &kp RBRC      &kp DLLR       &kp PRCNT     &kp CARET   &kp EQUAL
+    &caps_word &kp LEFT    &kp DOWN    &kp RIGHT     &kp LBKT                                    &kp RBKT      &kp EXCL       &kp AT        &kp HASH    &tog SYM
+                                       &kp ESC       &kp SPACE      &kp TAB        &kp RET       &trans        &kp DEL
             >;
         };
 
@@ -344,10 +344,10 @@
             label = "Function";
 
             bindings = <
-    &kp F1               &kp F2               &kp F3             &kp F4                &kp F5                                          &kp F6           &kp F7       &kp F8        &kp F9      &kp F10
-    &kp LG(LC(LEFT))     &kp LG(LC(DOWN))     &kp LG(LC(UP))     &kp LG(LC(RIGHT))     &kp ESC                                         &kp C_VOL_UP     &kp F4       &kp F5        &kp F6      &kp F11
-    &kp LS(LG(LC(LEFT))) &kp LS(LG(LC(DOWN))) &kp LS(LG(LC(UP))) &kp LS(LG(LC(RIGHT))) &kp ESC                                         &kp C_VOL_DN     &kp F1       &kp F2        &kp F3      &kp F12
-                                                                 &kp ESC               &kp SPACE          &trans      &kp RET          &kp BSPC              &kp DEL
+    &kp LG(LC(LEFT))     &kp LG(LC(DOWN))     &kp LG(LC(UP))     &kp LG(LC(RIGHT))     &kp ESC                                         &kp F15     &kp F7       &kp F8        &kp F9      &kp F10
+    &kp LG(LEFT)         &kp LG(DOWN)         &kp LG(UP)         &kp LG(RIGHT)         &kp LG(PG_UP)                                   &kp F14     &kp F4       &kp F5        &kp F6      &kp F11
+    &kp LS(LG(LC(LEFT))) &kp LS(LG(LC(DOWN))) &kp LS(LG(LC(UP))) &kp LS(LG(LC(RIGHT))) &kp ESC                                         &kp F13     &kp F1       &kp F2        &kp F3      &kp F12
+                                                                 &kp ESC               &kp SPACE          &trans      &kp RET          &kp BSPC    &kp DEL
             >;
         };
 
@@ -378,8 +378,8 @@
 
             bindings = <
     &kp LS(LEFT)     &kp LS(DOWN)     &kp LS(UP)      &kp LS(RIGHT)     &kp LC(A)                           &bt BT_CLR       &bt BT_PRV       &bt BT_NXT       &sys_reset       &bootloader
-    &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)      &kp LG(RIGHT)     &kp LG(PG_UP)                       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4
-    &kp LC(LEFT)     &kp LC(DOWN)     &kp LC(UP)      &kp LC(RIGHT)     &kp LC(Z)                           &trans           &trans           &trans           &trans           &trans
+    &kp LC(LEFT)     &kp LC(DOWN)     &kp LC(UP)      &kp LC(RIGHT)     &kp LG(PG_UP)                       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4
+    &kp LA(LEFT)     &kp LA(DOWN)     &kp LA(UP)      &kp LA(RIGHT)     &kp LC(Z)                           &trans           &trans           &trans           &trans           &trans
                                                       &trans            &kp SPACE     &kp TAB    &kp RET    &out OUT_BLE     &out OUT_USB
             >;
         };
