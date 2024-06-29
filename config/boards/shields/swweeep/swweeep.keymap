@@ -294,7 +294,7 @@
         };
         lt: layer_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP";35
+            label = "LAYER_TAP";
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             quick_tap_ms = <200>;
