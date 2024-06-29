@@ -269,7 +269,7 @@
         };
         combo_semic {
             timeout-ms = <50>;
-            key-positions = <16 19>
+            key-positions = <16 19>;
             bindings = <&kp SEMI>;
         };
         combo_grave {
