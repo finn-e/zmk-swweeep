@@ -5,7 +5,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/zmk
   projects:
-    - name: zmk
+    - name: petejohanson
       remote: zmk
       revision: feat/pointers-move-scroll
       import: app/west.yml
