@@ -165,10 +165,10 @@
             bindings = <&kp GT>;
         };
 
-        combo_hreuro {
+        combo_hrtilde {
             timeout-ms = <50>;
             key-positions = <10 11>;
-            bindings = <&kp EURO>;
+            bindings = <&kp TILDE>;
         };
         combo_hrcomma {
             timeout-ms = <50>;
@@ -252,14 +252,9 @@
             key-positions = <10 13>;
             bindings = <&kp PIPE>;
         };
-        combo_tilde {
-            timeout-ms = <50>;
-            key-positions = <10 12>;
-            bindings = <&kp TILDE>;
-        };
         combo_backslash {
             timeout-ms = <50>;
-            key-positions = <11 13>;
+            key-positions = <10 12>;
             bindings = <&kp BSLH>;
         };
         combo_colon {
