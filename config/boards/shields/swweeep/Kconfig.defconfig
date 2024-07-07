@@ -4,11 +4,14 @@
 if SHIELD_SWWEEEP_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "swweeep"
+    default "Fin's Sweep"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
+config CONFIG_ZMK_MOUSE
+    default y
+config CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY
+    default 9
 endif
 
 if SHIELD_SWWEEEP_LEFT || SHIELD_SWWEEEP_RIGHT
