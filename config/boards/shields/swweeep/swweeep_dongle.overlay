@@ -2,7 +2,7 @@
 #include "swweeep-layout.dtsi"
 
 &swweeep_layout {
-    transform = <&default_transform>
+    transform = <&default_transform>;
 }
 
 / {
@@ -12,7 +12,7 @@
     };
 
     mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock"
+        compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
         events = <0>;
