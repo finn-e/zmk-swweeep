@@ -5,7 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include swweeep-layout.dtsi
 
 / {
     default_transform: default_transform {
