@@ -8,7 +8,7 @@
 
 
 / {
-    default_transform: keymap_transform_0 {
+    default_transform: default_transform {
         compatible = "zmk,matrix-transform";
         columns = <36>;
         rows = <1>;
@@ -21,7 +21,7 @@
         >;
     };
 
-    kscan0: kscan_0 {        
+    kscan0: kscan0 {        
         compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
         input-gpios
