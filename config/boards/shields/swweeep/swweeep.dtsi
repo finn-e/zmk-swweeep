@@ -7,6 +7,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "swweeep-layout.dtsi"
 
+&swweeep_layout {
+    transform = <&default_transform>;
+    kscan = <&kscan0>;
+};
+
 / {
     default_transform: default_transform {
         compatible = "zmk,matrix-transform";

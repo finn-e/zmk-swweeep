@@ -1,8 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "swweeep-layout.dtsi"
+#include "swweeep-layout.dtsi"
 
 &swweeep_layout {
     transform = <&default_transform>;
+    kscan = <&mock_kscan>;
 };
 
 / {
@@ -11,7 +12,7 @@
         zmk,physical-layout = &swweeep_layout;
     };
 
-    mock_kscan: mock_kscan_0 {
+    mock_kscan: mock_kscan {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
