@@ -2,11 +2,6 @@
 #include "swweeep-layout.dtsi"
 
 /{
-    chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,physical_layout = &swweeep_layout;
-    };
-
     mock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
