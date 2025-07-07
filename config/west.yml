@@ -2,17 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: carrefinho
-      url-base: https://github.com/carrefinho
+    - name: finn-e
+      url-base: https://github.com/finn-e
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module
-      remote: carrefinho
+    - name: zmk-dongle-screen
+      remote: finn-e
       revision: main
   self:
     path: config
